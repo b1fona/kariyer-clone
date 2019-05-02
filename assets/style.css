@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+.header-top {
+    background: #6F1E51;
+}
+.header-top p{
+    padding:10px 0 ;
+    color:#fff;
+    text-align:center;
+    margin:0;
+}
+.header-bottom{
+    padding:0;
+}
+.logo{
+    float:left;
+    border-right:1px dashed #eee;
+}
+.logo img{
+    padding:13px 20px 13px 0 ;
+}
+.menu{
+    float:left;
+}
+.menu ul{
+    padding:0;
+    margin:0;
+}
+.menu li{
+    float:left;
+    list-style: none;
+    padding:25px 40px;
+    border-right:1px dashed #eee;
+    margin:0;
+}
+.menu a{
+    color:#333;
+    text-decoration: none;
+}
+.menu li:hover{
+    background: rgb(228, 129, 191);
+}
+.menu li:hover a{
+    text-decoration: none;
+    color:#fff;
+}
+.colormenu{
+    padding:25px 15px!important;
+    font-weight: bold;
+}
+.colormenu a{
+    color:rgb(107, 106, 106);
+}
+.buttons{
+    float:right;
+}
+.buttons ul{
+    margin:0;
+    padding:0;
+}
+.buttons li{
+    margin:18px 3px;
+    float:left;
+    list-style: none;
+    font-size:15px;
+    border-radius: 7px;
+    background: #6F1E51;
+    font-weight: bold;
+}
+.buttons a{
+    color:#fff;
+    text-decoration: none;
+    padding:5px 15px;
+    display: block;
+}
+.buttons a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.buttons li:hover{
+    background: rgb(160, 90, 134);
+    transition: 1s;
+}
+.buttons-element1{
+    background: #6388ca !important;
+}
+.buttons-element1:hover{
+    background: #333!important;
+}
+.buttons-element2{
+    background:#fff !important;
+    border:2px solid #6388ca;
+    margin-right:30px!important;
+}
+.buttons-element2 a{
+    color:#6388ca;
+    padding:3px 15px;
+}
+.buttons-element2 a:hover{
+    color:#6388ca;
+}
